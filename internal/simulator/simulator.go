@@ -321,9 +321,9 @@ func (s *simulation) setupDeviceProfile() error {
 			Name:              dpName.String(),
 			TenantId:          s.tenant.GetId(),
 			MacVersion:        common.MacVersion_LORAWAN_1_0_3,
-			RegParamsRevision: common.RegParamsRevision_B,
+			RegParamsRevision: common.RegParamsRevision_A,
 			SupportsOtaa:      true,
-			Region:            common.Region_EU868,
+			Region:            common.Region_US915,
 			AdrAlgorithmId:    "default",
 		},
 	})

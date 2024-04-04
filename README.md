@@ -132,7 +132,7 @@ activation_time="1m"
   payload="010203"
 
   # Frequency (Hz).
-  frequency=868100000
+  frequency=902300000
 
   # Bandwidth (Hz).
   bandwidth=125000
@@ -150,10 +150,10 @@ activation_time="1m"
   max_count=5
 
   # Event topic template.
-  event_topic_template="eu868/gateway/{{ .GatewayID }}/event/{{ .Event }}"
+  event_topic_template="us915/gateway/{{ .GatewayID }}/event/{{ .Event }}"
 
   # Command topic template.
-  command_topic_template="eu868/gateway/{{ .GatewayID }}/command/{{ .Command }}"
+  command_topic_template="us915/gateway/{{ .GatewayID }}/command/{{ .Command }}"
 
 
 # Prometheus metrics configuration.
